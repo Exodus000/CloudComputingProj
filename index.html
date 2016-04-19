@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        div#container {
+            width: 100%;
+            height: 100%;
+        }
+
+        div#header {
+            background-color: #99bbbb;
+            text-align: center;
+        }
+
+        div#find {
+            height: auto;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        div#content {
+            height: 70%;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        i#dl {
+            color: #6078ff;
+
+        }
+
+        a#link {
+                color: white;
+                text-decoration: none;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-bottom: 0;
+            font-size: 14px;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="header">
+        <h1>MUSIC PLAYER</h1>
+    </div>
+
+    <div id="find">
+
+        <ul>
+
+
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+                <title>Music</title>
+            </head>
+            <body>
+
+            </body>
+
+
+        </ul>
+
+        <audio id="audio1" style="width:60%" controls>Canvas not supported</audio>
+    </div>
+
+
+    <section>
+
+        <link rel="stylesheet" type="text/css" href="table.css">
+
+        <!--for demo wrap-->
+
+        <div class="tbl-header" id="content">
+            <table align="center">
+
+
+                <tr align="center">
+
+                    <th><img src="/icons/blank.gif" alt="[ICO]"></th>
+                    <th>Name</th>
+                    <th>Time</th>
+                    <th>Artist</th>
+                    <th>Album</th>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+
+            </table>
+        </div>
+
+
+        <div class="tbl-content">
+            <table cellpadding="0" cellspacing="0" border="0" align="center">
+                <tbody align="center">
+
+                <tr align="center">
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="music/001.Ave%20Maria.MP3">Ave Maria</a></td>
+                    <td align="center"> 3:00</td>
+                    <td align="center"> Schubert</td>
+                    <td align="center"> Ave Maria</td>
+                    <td>
+                        <button class="btn" id="001.Ave%20Maria.MP3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+
+                        <a class="link" href='music/001.Ave%20Maria.MP3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="Alejandro.mp3">Alejandro</a></td>
+                    <td align="center"> 4:34</td>
+                    <td align="center"> Lady Gaga</td>
+                    <td align="center"> The Fame Monster</td>
+                    <td>
+                        <button class="btn" id="Alejandro.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/Alejandro.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="Blue%20(Da%20Ba%20Dee).mp3">Blue (Da Ba Dee)</a></td>
+                    <td align="center"> 4:47</td>
+                    <td align="center"> Eiffel 65</td>
+                    <td align="center"> Europop</td>
+                    <td>
+                        <button class="btn" id="Blue%20(Da%20Ba%20Dee).mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/Blue%20(Da%20Ba%20Dee).mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="Far%20from%20Any%20Road.mp3">Far from Any Road</a></td>
+                    <td align="right">2:48</td>
+                    <td align="right">The Handsome Family</td>
+                    <td align="center"> Singing Bones</td>
+                    <td>
+                        <button class="btn" id="Far%20from%20Any%20Road.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/Far%20from%20Any%20Road.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="I%20Will%20Always%20Return.mp3">I Will Always Return</a></td>
+                    <td align="center"> 3:59</td>
+                    <td align="center"> Bryan Adams</td>
+                    <td align="center"> Spirit: Stallion of the Cimarron</td>
+                    <td>
+                        <button class="btn" id="I%20Will%20Always%20Return.mp3"
+                                onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/I%20Will%20Always%20Return.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="Grenade.mp3">Grenade</a></td>
+                    <td align="center"> 4:10</td>
+                    <td align="center"> Artist: Bruno Mars</td>
+                    <td align="center"> Doo-Wops & Hooligans</td>
+                    <td>
+                        <button class="btn" id="Grenade.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/Grenade.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="NO%20SCARED.mp3">NO SCARED</a></td>
+                    <td align="center"> 3:39</td>
+                    <td align="center"> ONE OK ROCK</td>
+                    <td align="center"> Zankyo Reference</td>
+                    <td>
+                        <button class="btn" id="NO%20SCARED.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/NO%20SCARED.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="Never%20Gonna%20Leave%20This%20Bed.mp3">Never Gonna Leave This Bed</a></td>
+                    <td align="center"> 3:46</td>
+                    <td align="center"> Maroon 5</td>
+                    <td align="center"> Hands All Over</td>
+                    <td>
+                        <button class="btn" id="Never%20Gonna%20Leave%20This%20Bed.mp3"
+                                onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/Never%20Gonna%20Leave%20This%20Bed.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="New%20Divide.mp3">New Divide</a></td>
+                    <td align="center"> 4:30</td>
+                    <td align="center">Linkin Park</td>
+                    <td align="center"> Transformers: Revenge of the Fallen</td>
+                    <td>
+                        <button class="btn" id="New%20Divide.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/New%20Divide.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="Uptown%20Girl.mp3">Uptown Girl</a></td>
+                    <td align="center"> 3:07</td>
+                    <td align="center">Billy Joel</td>
+                    <td align="center"> An Innocent Man</td>
+                    <td>
+                        <button class="btn" id="Uptown%20Girl.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/Uptown%20Girl.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="009.O Mio Babbino Caro .MP3">O Mio Babbino Caro</a></td>
+                    <td align="center"> 2:00</td>
+                    <td align="center"> O Mio Babbino Caro</td>
+                    <td align="center"> Prelude to a Dream</td>
+                    <td>
+                        <button class="btn" id="009.O Mio Babbino Caro .MP3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/009.O Mio Babbino Caro .MP3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="01 - Exhale (Shoop Shoop).mp3">Exhale(Shoop Shoop)</a></td>
+                    <td align="center"> 3:45</td>
+                    <td align="center"> Whitney Houston</td>
+                    <td align="center"> Waiting to Exhale</td>
+                    <td>
+                        <button class="btn" id="01 - Exhale (Shoop Shoop).mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/01 - Exhale (Shoop Shoop).mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="010.La Luna.MP3">La Luna</a></td>
+                    <td align="center"> 3:20</td>
+                    <td align="center"> Belinda Carlisle</td>
+                    <td align="center"> Runaway Horses</td>
+                    <td>
+                        <button class="btn" id="010.La Luna.MP3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/010.La Luna.MP3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="011.Pie Jesu.MP3">Pie Jesu</a></td>
+                    <td align="center"> 4:00</td>
+                    <td align="center"> Sarah Brightman</td>
+                    <td align="center"> Surrender</td>
+                    <td>
+                        <button class="btn" id="011.Pie Jesu.MP3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/011.Pie Jesu.MP3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="013.Nessun Dorma.MP3">Nessun Dorma </a></td>
+                    <td align="center"> 3:25</td>
+                    <td align="center"> Luciano Pavarotti</td>
+                    <td align="center"> Pavarotti</td>
+                    <td>
+                        <button class="btn" id="013.Nessun Dorma.MP3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/013.Nessun Dorma.MP3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="014.Bailero.MP3">Bailero</a></td>
+                    <td align="center"> 3:01</td>
+                    <td align="center"> Joseph Canteloube</td>
+                    <td align="center"> Chants d'Auvergne</td>
+                    <td>
+                        <button class="btn" id="014.Bailero.MP3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/014.Bailero.MP3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="015.Time To Say Goodbye.MP3">Time To Say Goodbye</a></td>
+                    <td align="center"> 3:30</td>
+                    <td align="center"> Andrea Bocelli</td>
+                    <td align="center">Time to say goodbye</td>
+                    <td>
+                        <button class="btn" id="015.Time To Say Goodbye.MP3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/015.Time To Say Goodbye.MP3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="02 - Why Does It Hurt So Bad.mp3">Why Does It Hurt So Bad</a></td>
+                    <td align="center"> 3:00</td>
+                    <td align="center"> Whitney Houston</td>
+                    <td align="center"> Waiting to Exhale</td>
+                    <td>
+                        <button class="btn" id="02 - Why Does It Hurt So Bad.mp3"
+                                onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/02 - Why Does It Hurt So Bad.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="03 - Let It Flow.mp3">Let It Flow</a></td>
+                    <td align="center"> 2:03</td>
+                    <td align="center"> Whitney Houston</td>
+                    <td align="center"> Waiting to Exhale</td>
+                    <td>
+                        <button class="btn" id="03 - Let It Flow.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/03 - Let It Flow.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>
+                    <td><a  id="link"  href="04 - It Hurts Like Hell.mp3">It Hurts Like Hell</a></td>
+                    <td align="center"> 3:05</td>
+                    <td align="center"> Whitney Houston</td>
+                    <td align="center"> Waiting to Exhale</td>
+                    <td>
+                        <button class="btn" id="04 - It Hurts Like Hell.mp3" onclick="playAudio('audio1' , this.id);">
+                            <i class="fa fa-play fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <a href='music/04 - It Hurts Like Hell.mp3' download='00.mp3'>
+                            <i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i>
+                        </a></td>
+                    <td>&nbsp;</td>
+                </tr>
+
+
+
+            </table>
+
+
+            <script type="text/javascript">
+
+
+                function playAudio(audioElm, clicked_id) {
+                    var audioElm = document.getElementById('audio1');
+
+                    audioElm.src = "music/" + document.getElementById(clicked_id).id;
+                    audioElm.play();
+                }
+
+
+                // '.tbl-content' consumed little space for vertical scrollbar, scrollbar width depend on browser/os/platfrom. Here calculate the scollbar width .
+                $(window).on("load resize ", function () {
+                    var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+                    $('.tbl-header').css({
+                        'padding-right': scrollWidth
+                    });
+                }).resize();
+
+            </script>
+
+
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
