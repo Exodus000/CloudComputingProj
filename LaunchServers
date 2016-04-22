@@ -1,0 +1,9 @@
+First choose Ubuntu Server 14.04 LTS (HVM), SSD Volume Type for target VM
+
+And from provided types choose t2.micro which has 1 vCPU 1GiB memeory and 8GB Instance Storage 
+
+Since now the website will not generate a lot workload, 4 server like the above is enough.
+
+Configuration 
+
+Set the inbound type All Tcp is allowed 
