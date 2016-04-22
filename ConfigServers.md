@@ -13,6 +13,11 @@ Install git
 ```
 $ sudo apt-get install git gcc
 ```
+Config github account 
+```
+git config --global user.name "yourusername"
+git config --global user.email "youremail"
+```
 Getting The Essential Build Tools
 ```
 $ sudo aptitude install -y build-essential
