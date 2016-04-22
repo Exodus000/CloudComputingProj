@@ -10,7 +10,7 @@
 
   2.1 Servers
   
-    Details: [here](https://github.com/Exodus000/CloudComputingProj/blob/master/LaunchServers)
+   Details: [here](https://github.com/Exodus000/CloudComputingProj/blob/master/LaunchServers)
  
   2.2 Load Balancers
   
