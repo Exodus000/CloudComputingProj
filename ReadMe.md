@@ -10,16 +10,16 @@
 
   2.1 Servers
   
-  Details: [here](https://github.com/Exodus000/CloudComputingProj/blob/master/LaunchServers)
+    Details: [here](https://github.com/Exodus000/CloudComputingProj/blob/master/LaunchServers)
  
   2.2 Load Balancers
   
-  For a sample music player the load balancer is **not required**. If you wish not to set up one pleast jump to #Step 3 [create an anchor](# 3 Upload some *.mp3 files)
+    For a sample music player the load balancer is **not required**. If you wish not to set up one pleast jump to #Step 3 
 
   
-  Depends on how many workload users will generate, the numbers of load balancer will change, for example now you can depoly one load balancer with 3 back-end servers.
+    Depends on how many workload users will generate, the numbers of load balancer will change, for example now you can depoly one load balancer with 3 back-end servers.
   
-  Details:
+    Details:
   
 ### 3 Upload some *.mp3 files
 
