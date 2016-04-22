@@ -1,4 +1,4 @@
-## How to deploy the music player on your VM
+## How to deploy the music player on your PC
 
 ### 1 Launch VMs
  
