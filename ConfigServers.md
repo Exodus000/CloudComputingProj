@@ -1,4 +1,4 @@
-## Set the inbound type All Tcp is allowed 
+  Set the inbound type All Tcp is allowed 
 
    Updating The Operating-System
        $ sudo aptitude    update
