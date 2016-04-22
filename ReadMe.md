@@ -1,4 +1,5 @@
-## How to deploy the music player on your PC
+## How to deploy the music player 
+
 
 ### 1 Launch VMs
  
@@ -14,12 +15,38 @@ Details: [here](https://github.com/Exodus000/CloudComputingProj/blob/master/Conf
 
 2.2 Load Balancers
 
-For a sample music player the load balancer is **not required**. If you wish not to set up one pleast jump to #Step 3
+For a sample music player the load balancer is **not required**. If you wish not to set up one please jump to #Step 3
 Depends on how many workload users will generate, the numbers of load balancer will change, for example now you can depoly one load balancer with 3 back-end servers.
  
 Details: [here](https://github.com/Exodus000/CloudComputingProj/blob/master/ConfigLoadBalancer.md)
  
-### 3 Upload some *.mp3 files
+### 3 Create local project files
 
+3.1 Web page coding
+
+Write the player main screen use html and css. For sample the code has been upload to github [here](https://github.com/Exodus000/CloudComputingProj/blob/master/index.html) and [here](https://github.com/Exodus000/CloudComputingProj/blob/master/table.css).
+
+3.2 Including *.mp3 files
+
+
+### 4 Download and update codes and files in step 3 through github
+
+use
+```
+$ cd /var/www/html
+```
+to locate apache2 root directory
+
+use
+```
+$ sudo git clone https://github.com/Exodus000/CloudComputingProj.git
+```
+to clone the repo to current directory
+
+and 
+```
+$ sudo git pull 
+```
+to make a update
 
 
