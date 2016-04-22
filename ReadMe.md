@@ -4,4 +4,6 @@
  
  1.1 Servers
  
+ Details: [here](CloudComputingProj/LaunchServers)
+ 
  1.2 Load Balancers
