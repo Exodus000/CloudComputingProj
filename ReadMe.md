@@ -10,3 +10,6 @@
 
 Depends on how many workload users will generate, the numbers of load balancer will change, for example now you can depoly one load balancer with 3 back-end servers.
 
+Details: 
+
+### 2 VM Configurations
