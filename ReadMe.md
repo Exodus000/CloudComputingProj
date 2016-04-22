@@ -6,6 +6,8 @@
   First choose Ubuntu Server 14.04 LTS (HVM), SSD Volume Type for target VM
 
   And from provided types choose t2.micro which has 1 vCPU 1GiB memeory and 8GB Instance Storage 
+  
+  If there is more than 1 server it's efficient to keep all instances under same subnet.
 
 ### 2 VM Configurations
 
@@ -28,8 +30,11 @@ Write the player main screen use html and css. For sample the code has been uplo
 
 3.2 Including *.mp3 files
 
+Required files has been upload to [here]()
 
 ### 4 Download and update codes and files in step 3 through github
+
+On servers
 
 use
 ```
@@ -49,4 +54,18 @@ $ sudo git pull
 ```
 to make a update
 
+move the compentonts to the html directory
+```
+sudo mv CloudComputingProj/* /var/www/html
+```
+
+### 5 Install apache2 and php
+
+which has been includes in step 2
+
+### 6 How to start the application
+
+Simply visit [Music Player] and it will start automatically
+
+And now click play button after song you like  it will start playing, click download it will generate a browser download action.
 
