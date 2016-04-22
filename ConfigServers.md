@@ -1,18 +1,19 @@
- In NETWORK & SECURITY tab, set the inbound type All Tcp is allowed 
+In NETWORK & SECURITY tab, set the inbound type All Tcp is allowed 
 
-Updating The Operating-System
- 
- ''' 
-       $ sudo aptitude    update
-       $ sudo aptitude -y upgrade
-'''
-   install apache2
-'''
-       $sudo apt-get install apache2
-'''
-   install git 
-       $ sudo apt-get install git gcc
-
-   Getting The Essential Build Tools
-       $ sudo aptitude install -y build-essential
-
+updating The Operating-System
+``` 
+$ sudo aptitude    update
+$ sudo aptitude -y upgrade
+```
+ install apache2 and php
+```
+sudo apt-get install apache2 unzip tcl php5 libapache2-mod-php5 make gcc git php5-dev
+```
+ install git 
+```
+$ sudo apt-get install git gcc
+```
+Getting The Essential Build Tools
+```
+$ sudo aptitude install -y build-essential
+```
