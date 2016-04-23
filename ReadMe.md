@@ -26,7 +26,7 @@ Details: [here](https://github.com/Exodus000/CloudComputingProj/blob/master/Conf
 
 3.1 Web page coding
 
-Write the player main screen use html and css. For sample the code has been upload to github [here](https://github.com/Exodus000/CloudComputingProj/blob/master/index.html) and [here](https://github.com/Exodus000/CloudComputingProj/blob/master/table.css).
+Write the player main screen use html and css. For sample the code has been upload to github [here](https://github.com/Exodus000/CloudComputingProj/blob/master/index.php) and [here](https://github.com/Exodus000/CloudComputingProj/blob/master/table.css).
 
 3.2 Including *.mp3 files
 
