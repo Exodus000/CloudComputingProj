@@ -61,7 +61,6 @@
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-
 </head>
 
 <body>
@@ -146,9 +145,10 @@
                         echo '<td align="left">' . $file . '</td>';
                         echo '<td align="left">' . htmlentities(!empty($ThisFileInfo['playtime_string']) ? $ThisFileInfo['playtime_string'] : chr(160)) . '</td>';
                         echo '<td>' . htmlentities(!empty($ThisFileInfo['comments_html']['artist']) ? implode('<br>', $ThisFileInfo['comments_html']['artist']) : chr(160)) . '</td>';
+                        //echo '<td>'              .htmlentities(!empty($ThisFileInfo['comments_html']['title'])  ? implode('<br>', $ThisFileInfo['comments_html']['title'])          : chr(160)).'</td>';
+                        //echo '<td align="right">'.htmlentities(!empty($ThisFileInfo['audio']['bitrate'])        ?           round($ThisFileInfo['audio']['bitrate'] / 1000).' kbps' : chr(160)).'</td>';
                         echo '<td>' . htmlentities(!empty($ThisFileInfo['comments_html']['album']) ? implode('<br>', $ThisFileInfo['comments_html']['album']) : chr(160)) . '</td>';
-                        echo '<td> <button class="btn"  id=\'' . $file . '\'    onclick="playAudio(\'audio1\' , this.id);"> 
-                                <i class=\'fa fa-play fa-lg\' aria-hidden=\'true\'></i></button>';
+                        echo '<td> <button class="btn"  id=\'' . $file . '\'    onclick="playAudio(\'audio1\' , this.id);">  <i class=\'fa fa-play fa-lg\' aria-hidden=\'true\'></i>  </button>';
                         echo '<a class="link" href= "music/' . $file . '" download=\'' . $file . ' \'>';
                         echo '<i id="dl" class="fa fa-download fa-lg" aria-hidden="true"></i> </a></td>';
                         echo '<td>&nbsp;</td>';
