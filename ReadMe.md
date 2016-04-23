@@ -45,6 +45,7 @@ to locate apache2 root directory
 use
 ```
 $ sudo git clone https://github.com/Exodus000/CloudComputingProj.git
+$ sudo git clone https://github.com/JamesHeinrich/getID3.git
 ```
 to clone the repo to current directory
 
