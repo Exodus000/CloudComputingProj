@@ -136,12 +136,9 @@ while (($file = readdir($dir)) !== false) {
         // output desired information in whatever format you want
         echo '<tr>';
 	echo '<td><i class="fa fa-music fa-lg" aria-hidden="false"></i></td>';
-        //echo '<td align="left">'.$name.'</td>';
         echo '<td>'              .htmlentities(!empty($ThisFileInfo['comments_html']['title']) ? implode( $ThisFileInfo['comments_html']['title'])         : chr(160)).'</td>';
         echo '<td align="left">'.htmlentities(!empty($ThisFileInfo['playtime_string'])         ?                 $ThisFileInfo['playtime_string']                  : chr(160)).'</td>';
         echo '<td>'              .htmlentities(!empty($ThisFileInfo['comments_html']['artist']) ? implode( $ThisFileInfo['comments_html']['artist'])         : chr(160)).'</td>';
-        //echo '<td>'              .htmlentities(!empty($ThisFileInfo['comments_html']['title'])  ? implode('<br>', $ThisFileInfo['comments_html']['title'])          : chr(160)).'</td>';
-        //echo '<td align="right">'.htmlentities(!empty($ThisFileInfo['audio']['bitrate'])        ?           round($ThisFileInfo['audio']['bitrate'] / 1000).' kbps' : chr(160)).'</td>';
         echo '<td>'              .htmlentities(!empty($ThisFileInfo['comments_html']['album']) ? implode( $ThisFileInfo['comments_html']['album'])           :chr(160)).'</td>';
         echo '<td> <button class="btn"  id=\''.$file.'\'    name='.$num.'  onclick="playAudio(\'audio1\' , this.id);">  <i class=\'fa fa-play fa-lg\' aria-hidden=\'true\'></i>  </button>';
 	echo  '<a class="link" href= "music/'. $file .'" download=\''. $file .'\'>';
