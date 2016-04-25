@@ -31,7 +31,7 @@ Write the player main screen use html and css. For sample the code has been uplo
 
 3.2 Including *.mp3 files
 
-Required files has been upload to [here]()
+Required files has been upload to [here](https://github.com/buaajjg/music)
 
 ### 4 Download and update codes and files in step 3 through github
 
