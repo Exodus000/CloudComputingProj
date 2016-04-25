@@ -114,7 +114,7 @@
 
   <?php
 
-require_once('getID3-master/getid3/getid3.php');
+require_once('getID3/getid3/getid3.php');
 
 // Initialize getID3 engine
 $getID3 = new getID3;
