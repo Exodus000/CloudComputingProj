@@ -47,6 +47,7 @@ use
 ```
 $ sudo git clone https://github.com/Exodus000/CloudComputingProj.git
 $ sudo git clone https://github.com/JamesHeinrich/getID3.git
+$ sudo git clone https://github.com/buaajjg/music.git
 ```
 to clone the repo to current directory
 
