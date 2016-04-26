@@ -5,7 +5,7 @@ Updating The Operating-System
 $ sudo aptitude    update
 $ sudo aptitude -y upgrade
 ```
-Install apache2 and php
+Install apache2, php and git 
 ```
 sudo apt-get install apache2 unzip tcl php5 libapache2-mod-php5 make gcc git php5-dev
 ```
