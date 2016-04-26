@@ -9,10 +9,6 @@ Install apache2 and php
 ```
 sudo apt-get install apache2 unzip tcl php5 libapache2-mod-php5 make gcc git php5-dev
 ```
-Install git 
-```
-$ sudo apt-get install git gcc
-```
 Config github account 
 ```
 git config --global user.name "yourusername"
