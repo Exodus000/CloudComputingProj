@@ -3,11 +3,15 @@
 
 ### 1 Launch VMs
  
-  First choose Ubuntu Server 14.04 LTS (HVM), SSD Volume Type for target VM
-
-  And from provided types choose t2.micro which has 1 vCPU 1GiB memeory and 8GB Instance Storage 
+  In this project we use Amazon AWS EC2 to establish online server, first visit [here](http://aws.amazon.com) to sign up an account.
   
-  If there is more than 1 server it's efficient to keep all instances under same subnet.
+  In instance tab, choose Launch instance - Ubuntu Server 14.04 LTS (HVM), SSD Volume Type for target VM
+
+  From provided types choose t2.micro which has 1 vCPU 1GiB memeory and 8GB Instance Storage.
+  
+  If there is more than 1 server it's efficient to keep all instances under same subnet(In Step 3: Configure Instance Details)
+  
+  Choose review and launch.
 
 ### 2 VM Configurations
 
