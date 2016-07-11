@@ -72,7 +72,7 @@ which has been includes in step 2
 
 ### 6 How to start the application
 
-Simply visit [Music Player]() and it will start automatically
+Simply visit your VM's IP/index.php and it will start automatically
 
 And now click play button after song you like it will start playing, click download it will generate a browser download action.
 
